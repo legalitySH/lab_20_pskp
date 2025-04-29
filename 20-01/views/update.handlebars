@@ -1,0 +1,7 @@
+{{> form action=(concat "/Update?id=" id) buttonText="Обновить" entry=entry }}
+
+<div class="button-container">
+    <form action="/Delete?id={{id}}" method="POST">
+    <button type="submit" class="delete-button">Удалить</button>
+    </form>
+</div>

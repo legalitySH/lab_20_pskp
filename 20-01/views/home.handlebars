@@ -1,0 +1,17 @@
+<a class="phones-container">
+{{#each phones}}
+    <a class="entry" onclick="window.location.href='/Update?id={{@index}}'">
+        <span>{{this.name}}</span> — <span>{{this.phone}}</span>
+    </a>
+{{/each}}
+
+<div class="form-container">
+    {{{form}}}
+</div>
+
+
+{{#unless form}}
+    <div class="add-button-container">
+        <button onclick="window.location.href='/Add'" class="add-button">Добавить запись</button>
+    </div>
+{{/unless}}

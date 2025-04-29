@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+.entry {
+    margin: 10px auto;
+    display: block;
+    background-color: lightgray;
+    padding: 20px 10px;
+    width: 35%;
+
+}
+
+.form-container {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.add-button {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 35%;
+}
+
+.add-button-container {
+    text-align: center;
+}
+
+input {
+    background-color: lightgray;
+    border: none;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.submit-button {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: black;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.cancel-button {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: black;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-inputs {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.delete-button {
+    width: 438px;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}

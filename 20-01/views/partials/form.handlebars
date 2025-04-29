@@ -1,0 +1,11 @@
+<form method="POST" action="{{action}}">
+    <div class="form-inputs">
+        <input type="text" name="name" placeholder="Имя" value="{{entry.name}}" required />
+        <input type="text" name="phone" placeholder="Телефон" value="{{entry.phone}}" required />
+    </div>
+
+    <div class="button-container">
+        <button class="submit-button" type="submit">{{buttonText}}</button>
+        {{{cancelButton}}}
+    </div>
+</form>
